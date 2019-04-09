@@ -1,0 +1,333 @@
+<!DOCTYPE html> 
+<head>
+<title>Dia Internacional de la Madre Tierra</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/tema-app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!----grupo js--->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!----Menu Lateral--->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/tierra-10.jpg','imagenes/tierra-12.jpg','imagenes/tierra-14.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Internacional de la Madre Tierra 22 de abril</h1>
+</div>
+<div class="container">
+<div id="sidebar">
+<ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r"> 
+<h2>Porque se celebra?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r"> 
+<h2>Historia del Dia</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r"> 
+<h2>La Tierra que habitamos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r"> 
+<h2>Dialogo sobre armonia con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r"> 
+<h2>Hacia una tierra sostenible</h2>
+</a>
+</li>
+</ul>
+</div>
+
+<div class="main-content">
+<div class="swipe-area"></div>
+<a href="#" data-toggle=".container" id="sidebar-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+</div>
+</div>
+<center>
+<br>
+<div class="slider">
+<ul>
+  <li><img src="imagenes/tierra-1.jpg" alt="sldr"></li>
+<li><img src="imagenes/tierra-2.jpg" alt="sldr2"></li>
+<li><img src="imagenes/tierra-3.jpg" alt="sldr3"></li>
+<li><img src="imagenes/tierra-4.jpg" alt="sldr4"></li>
+<li><img src="imagenes/tierra-5.jpg" alt="sldr5"></li>
+<li><img src="imagenes/tierra-6.jpg" alt="sldr6"></li>
+<li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+<li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+</ul>
+</div>
+</center>
+<center>
+<div data-role="main" class="ui-content">
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Realizado por: </h1>
+<h2>Francisco Javier Hernandez Rodriguez</h2>
+<p>4° "F" </p>
+<h1>Especialidad: </h1>
+<p>Programación</p>
+<h2>Submodulo:</h2>
+<p>Desarrolla Aplicaciones Móviles</p>
+<h2>Docente:</h2>
+<p>Lic.José Antonio Gómez Hernández</p>
+</div>
+</div>
+</center>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Dia de la Madre Tierra </h4>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Porque se celebra?</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+Celebramos el dia Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este dia, asumimos, ademas, la responsabilidad colectiva, como nos recordaba la Declaracion de Rio de 1992, de fomentar esta armonia con la naturaleza y la Madre Tierra.
+Este dia nos brinda tambien la oprtunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/tierra-10.jpg',1)"><img src="imagenes/tierra-9.jpg" width="600" height="350" id="Image15"></a> 
+</p>
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button">
+<h4>Ver Mas</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Historia del Día</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+El Día de la Tierra es un día festivo celebrado en muchos países el 22 de abril. Su promotor, el senador estadounidense Gaylord Nelson, instauró este día para crear una conciencia común a los problemas de la contaminación, la conservación de la biodiversidad y otras preocupaciones ambientales para proteger la Tierra.
+La primera manifestación tuvo lugar el 22 de abril de 1970, promovida por el senador y activista ambiental Gaylord Nelson, para la creación de una agencia ambiental. En esta convocatoria participaron dos mil universidades, diez mil escuelas primarias y secundarias y centenares de comunidades. La presión social tuvo sus logros y el gobierno de los Estados Unidos creó la Environmental Protection Agency (Agencia de Protección Ambiental) y una serie de leyes destinada a la protección del medio ambiente.
+
+En 1972 se celebró la primera conferencia internacional sobre el medio ambiente: la Conferencia de Estocolmo, cuyo objetivo fue sensibilizar a los líderes mundiales sobre la magnitud de los problemas ambientales y que se instituyeran las políticas necesarias para erradicarlos.
+Las Naciones Unidas celebran el día de la Tierra cada año en el equinoccio vernal (alrededor del 21 de marzo). El 26 de febrero de 1971, el secretario general U Thant firmó una proclamación a ese efecto. Al momento del equinoccio suena la Campana de la Paz en la sede central de la ONU en Nueva York
+El Día de la Tierra es una fiesta que pertenece a la gente y no está regulada por una sola entidad u organismo; tampoco está relacionado con reivindicaciones políticas, nacionales, religiosas, ideológicas ni raciales.
+En el Día de la Tierra se reflexiona sobre la importancia del vital líquido que es indispensable para la vida del ser humano como lo que es el agua ya que de toda el agua que existe en el planeta tan solo en 2% es bebible.
+El Día de la Tierra apunta a la toma de conciencia de los recursos naturales de la Tierra y su manejo, a la educación ambiental, y a la participación como ciudadanos ambientalmente conscientes y responsables.
+En el Día de la Tierra todos estamos invitados a participar en actividades que promuevan la salud de nuestro planeta, tanto a nivel global como regional y local.
+"La Tierra es nuestro hogar y el hogar de todos los seres vivos. La Tierra misma está viva. Somos partes de un universo en evolución. Somos miembros de una comunidad de vida interdependiente con una magnificente diversidad de formas de vida y culturas. Nos sentimos humildes ante la belleza de la Tierra y compartimos una reverencia por la vida y las fuentes de nuestro ser..."
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/tierra-12.jpg',1)"><img src="imagenes/tierra-11.jpg" width="294" height="171" id="Image16"></a> 
+</p>
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://sabanetasr.over-blog.com/article-historia-del-dia-mundial-de-la-madre-tierra-49077895.html" target="_self" data-role="button">
+<h4>Ver Mas</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 3-->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>La Tierra que habitamos</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+El domingo pasado 22 de abril se celebró el Día Internacional de la Madre Tierra, desde la CEDU participamos a través de la difusión y compromiso en la  búsqueda de un justo equilibro entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, promoviendo una cultura armónica con la naturaleza y Madre Tierra.
+
+«Madre Tierra» es una expresión común utilizada para referirse al Planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.
+
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+
+Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+
+Este día nos brinda también la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de vida que en él se desarrollan.
+<br><br>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/tierra-14.jpg',1)"><img src="imagenes/tierra-13.jpg" width="600" height="350" id="Image17"></a> 
+</p>
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://cedu.com.ar/cedu_new/es/noticias/compromiso-ambiental/2826-la-tierra-que-habitamos.html" target="_self" data-role="button">
+<h4>Ver Mas</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 4-->
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dialogo sobre armonia con la naturaleza</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+La ONU informó que este año se celebrará el octavo Diálogo sobre armonía con la naturaleza, el día 23 de abril en la Sede de la ONU de Nueva York. Este diálogo interactivo es una buena plataforma para tratar temas como la producción sostenible y los patrones de consumo en la Armonía con la naturaleza. Asimismo, el diálogo quiere fomentar que los ciudadanos y las sociedades se conciencien sobre cómo se relacionan y cómo pueden relacionarse con el mundo natural; al mismo tiempo, pretende mejorar los cimientos éticos de la relación entre la humanidad y la Tierra, en términos de desarrollo sostenible.
+<br><br>
+  <img src="imagenes/tierra-15.jpg" width="284" height="400" alt="tierra"> 
+</p>
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.naturalezainterior.org.pe/index.php/naturaleza-y-medio-ambiente/item/1222-dia-de-la-tierra-ayudemos-a-promover-la-armonia-con-la-naturaleza-y-el-planeta" target="_self" data-role="button">
+<h4>Ver Mas</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 5-->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Hacia una Tierra sostenible</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+La Asamblea General designa en su resolución A/RES/63/278 el 22 de abril como el Día Internacional de la Madre Tierra, teniendo en cuenta que en muchos países se celebra el día de la Tierra, y con el objetivo de alcanzar un justo equilibrio entre las necesidades económicas, las sociales y las ambientales de las generaciones presentes y futuras, y para promover la armonía con la naturaleza y la Tierra.
+
+Invita a todos los Estados Miembros, las organizaciones del sistema de las Naciones Unidas, las organizaciones internacionales, regionales y subregionales, la sociedad civil, las organizaciones no gubernamentales y las partes interesadas a observar el Día Internacional de la Madre Tierra y crear conciencia al respecto, según proceda.
+
+La Conferencia de las Naciones Unidas sobre el Medio Humano de 1972 celebrada en Estocolmo sentó las bases de la toma de conciencia mundial sobre la relación de interdependencia entre los seres humanos, otros seres vivos y nuestro planeta. Asimismo, se estableció el 5 de junio como el Día Mundial del Medio Ambiente y se creó el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), la agencia de la ONU encargada de establecer la agenda ambiental a nivel global, promover la implementación coherente de la dimensión ambiental del desarrollo sostenible en el sistema de las Naciones Unidas y actuar como un defensor autorizado del medio ambiente.
+
+En 1992, más de 178 países firmaron la Agenda 21, la Declaración de Río sobre el Medio Ambiente y el Desarrollo, y la Declaración de Principios para la Gestión Sostenible de los Bosques en la Conferencia de Naciones Unidas sobre el Medio Ambiente y el Desarrollo (UNCED), que tuvo lugar en Río de Janeiro (Brasil) del 3 y el 14 de junio de 1992.
+
+En el año 2005, la Asamblea General declaró 2008 como el Año Internacional del Planeta Tierra para promover la enseñanza de las ciencias de la Tierra para facilitar a la humanidad los instrumentos necesarios para el uso sostenible de los recursos naturales y para construir la infraestructura científica esencial para el desarrollo sostenible.
+
+En 2012 se celebró la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible, también conocida como Rio+20. Como resultado, se elaboró un documento que contenía medidas y prácticas para implementar un desarrollo sostenible. Además, en Río, los Estados Miembros decidieron emprender un proceso para establecer los Objetivos de Desarrollo Sostenible (ODS), que se basarían en los Objetivos de Desarrollo del Milenio y coincidirían con la Agenda para el desarrollo después de 2015.
+<br><br>
+<img src="imagenes/tierra-16.jpg" width="470" height="350" alt="cuerpo"> 
+</p>
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.un.org/es/events/motherearthday/background.shtml" target="_self" data-role="button">
+<h4>Ver Mas</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Francisco Javier Hernandez Rodriguez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+</body>
+</html>
